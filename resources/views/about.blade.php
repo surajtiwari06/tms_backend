@@ -5,7 +5,7 @@
                 <div class="h-page-6-getjobs-wrap">
                     <div class="row mt-5">
 
-                        <div class="col-lg-7 col-md-12">
+                        <div class="col-lg-7 col-md-12 hide-in-mobile">
                             <div class="h-page-6-getjobs-left">
 
                                 <div class="twm-media">
@@ -35,7 +35,7 @@
                                         <div> </div>
                                     </div>
                                     <h2 class="wt-title"><span class="site-text-primary" style="text-align: center;">Technology Management
-                                            Solutions<span> </h2>
+                                            Solutions<span> </h2>usiness with
                                                 <div style="font-size: 17px;">  <p >Technology Management Solutions (TMS) is a digital product engineering company;
                                                     we help our clients design and build innovative products and solutions for
                                                     modern digital experience. Working with our clients at various stages from
@@ -45,9 +45,9 @@
 
                                                 <p> We partner in providing technical and non-technical expertise. Our engagement
                                                     models are designed to accelerate the process to shorten the product development
-                                                    life cycle. Headquartered at New Jersey we operate onsite and offshore centers
-                                                    to help customers in Financial Services, Retail, Medical, Entertainment,
-                                                    Manufacturing and Automotive industry.
+                                                    life cycle.Headquartered in New Jersey, we operate onsite and offshore centers to cater to clients across industries, including Financial Services, Retail, Medical, Entertainment, Manufacturing, and Automotive. Our deep industry knowledge and global presence enable us to deliver high-quality solutions that drive business growth and surpass customer expectations.
+
+                                                    Choose TMS as your trusted digital product engineering partner and embark on a journey of innovation and success. <a href="contact" class="site-text-orange">Contact us</a> today to discuss how we can transform your ideas into reality.
                                                 </p>
                                             </div>
 
@@ -68,23 +68,20 @@
             </div>
             <!-- intro end -->
 
-<!-- TOP COMPANIES START -->
-<div class="section-full p-t30 p-b90 site-bg-white twm-companies-wrap twm-companies-wrap-h-page-7 pos-relative">
+<!-- Our product RPE START -->
+{{-- <div class="section-full p-t30 p-b90 site-bg-white twm-companies-wrap twm-companies-wrap-h-page-7 pos-relative">
 <div class="twm-companies-wrap-bg-block2"></div>
-<!-- TITLE START-->
+
 <div class="section-head center wt-small-separator-outer content-white">
     <div class="wt-small-separator site-text-primary">
         <div>Our Product</div>
     </div>
     <h2 class="wt-title">"Resume Parser Engine"</h2>
-</div>
-<!-- TITLE END-->
+</div> --}}
 
-
-
-<!-- TOP COMPANIES END -->
+<!-- Our product RPE END -->
             <!-- HOW IT WORK SECTION START -->
-            <div class="section-full p-t120 p-b90 site-bg-white twm-how-it-work-area2">
+            {{-- <div class="section-full p-t120 p-b90 site-bg-white twm-how-it-work-area2">
 
                 <div class="container">
                     <div class="row">
@@ -190,11 +187,11 @@
                     </div>
                 </div>
 
-            </div>
+            </div> --}}
             <!-- HOW IT WORK SECTION END -->
 
             <!-- EXPLORE NEW LIFE START -->
-            <div class="section-full p-t120 p-b120 twm-explore-area bg-cover" style="background-image: url{{('images/background/bg-1jpg')}};">
+            {{-- <div class="section-full p-t120 p-b120 twm-explore-area bg-cover" style="background-image: url{{('images/background/bg-1jpg')}};">
                 <div class="container">
 
                     <div class="section-content">
@@ -240,11 +237,11 @@
                     </div>
 
                 </div>
-            </div>
+            </div> --}}
             <!-- EXPLORE NEW LIFE END -->
 
             <!-- Jobs Category START -->
-            <div class="section-full p-t120 p-b90 site-bg-white job-categories-home-5-wrap twm-bdr-bottom-1">
+            <div class="section-full p-t20 p-b90 site-bg-white job-categories-home-5-wrap twm-bdr-bottom-1">
                 <div class="container">
 
                     <!-- TITLE START-->
@@ -252,14 +249,13 @@
                         <div class="wt-small-separator site-text-primary">
                             <div>Services We Provide</div>
                         </div>
-                        <h4 class="wt-title" style="font-size:40px; font-weight: 300;">Find the worth of your demand
-                            under one-roof.</h4>
+                        <h4 class="wt-title hide-in-mobile" style="font-size:40px; font-weight: 300;">Find the worth of your demand under one-roof.</h4>
                     </div>
                     <!-- TITLE END-->
 
                 </div>
 
-                <div class="section-content twm-jobs-grid-h5-section-outer">
+                <div class="section-content twm-jobs-grid-h5-section-outer hide-in-mobile">
                     <div class="twm-jobs-grid-h5-section overlay-wraper"
                         style="background-image: url{{('images/home-5/cate-bg.jpg')}};">
                         <div class="overlay-main site-bg-primary opacity-09"></div>
@@ -269,95 +265,109 @@
 
 
 
-                                <!--2-->
-                                <div class="swiper-slide">
-                                    <div class="job-categories-home-5">
-                                        <div class="twm-media cat-bg-clr-3">
-                                            <div class="flaticon-customer-support"></div>
-                                        </div>
-                                        <div class="twm-content">
-                                            <a href="job-detail.html">Staffing Services</a>
-                                            <div class="twm-jobs-available"></div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                      <!--10-->
-                                      <div class="swiper-slide">
-                                        <div class="job-categories-home-5">
-                                            <div class="twm-media cat-bg-clr-2">
-                                                <div class="flaticon-coding"></div>
-                                            </div>
-                                            <div class="twm-content">
-                                                <a href="job-detail.html">IOT Integration</a>
-                                                <div class="twm-jobs-available"></div>
-    
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                <!--3-->
-                                <div class="swiper-slide">
-                                    <div class="job-categories-home-5">
-                                        <div class="twm-media cat-bg-clr-2">
-                                            <div class="flaticon-bars"></div>
-                                        </div>
-                                        <div class="twm-content">
-                                            <a href="job-detail.html">Data Warehouse and engineering</a>
-                                            <div class="twm-jobs-available"></div>
-
-                                        </div>
-                                    </div>
-                                </div> 
-
-                                <!--4-->
-                                <div class="swiper-slide">
+                             
+                                 <!--4-->
+                                 <div class="swiper-slide">
+                                      <a href="{{ route ('software')}}">
                                     <div class="job-categories-home-5">
                                         <div class="twm-media cat-bg-clr-4">
                                             <div class="flaticon-dashboard"></div>
                                         </div>
                                         <div class="twm-content">
-                                            <a href="job-detail.html">Software Applications</a>
+                                            <a href="{{ route ('software')}}">Software Applications</a>
                                             <div class="twm-jobs-available"></div>
 
                                         </div>
                                     </div>
+                                </a>
                                 </div>
+
+                                      <!--10-->
+                                      <div class="swiper-slide">
+                                          <a href="{{ route ('iot')}}">
+                                        <div class="job-categories-home-5">
+                                            <div class="twm-media cat-bg-clr-2">
+                                                <div class="flaticon-coding"></div>
+                                            </div>
+                                            <div class="twm-content">
+                                                <a href="{{ route ('iot')}}">IOT <br>Integration</a>
+                                                <div class="twm-jobs-available"></div>
+    
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </div>
+
+                                <!--3-->
+                                {{-- <div class="swiper-slide">
+                                      <a href="{{ route ('software')}}">
+                                    <div class="job-categories-home-5">
+                                        <div class="twm-media cat-bg-clr-2">
+                                            <div class="flaticon-bars"></div>
+                                        </div>
+                                        <div class="twm-content">
+                                            <a href="{{ route ('software')}}">Data Warehouse and engineering</a>
+                                            <div class="twm-jobs-available"></div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                </div>  --}}
+                                   <!--2-->
+                                   <div class="swiper-slide">
+                                      <a href="{{ route ('staffing')}}">
+                                    <div class="job-categories-home-5">
+                                        <div class="twm-media cat-bg-clr-3">
+                                            <div class="flaticon-customer-support"></div>
+                                        </div>
+                                        <div class="twm-content">
+                                            <a href="{{ route ('staffing')}}">Staffing <br> Services</a>
+                                            <div class="twm-jobs-available"></div>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                </div>
+
+                               
 
 
 
 
                                 <!--7-->
                                 <div class="swiper-slide">
+                                      <a href="{{ route ('ai_ml')}}">
                                 <div class="job-categories-home-5">
                                     <div class="twm-media cat-bg-clr-2">
                                         <div class="flaticon-user"></div>
                                     </div>                                   
                                     <div class="twm-content">
-                                        <a href="job-detail.html">AI and ML Advancement</a>
+                                        <a href="{{ route ('ai_ml')}}">AI and ML Advancement</a>
                                         <div class="twm-jobs-available"></div>
                                         
                                     </div>                               
                                 </div>
+                            </a>
                               </div>
 
                                 <!--8-->
                                 <div class="swiper-slide">
+                                      <a href="{{ route ('di_bi')}}">
                                     <div class="job-categories-home-5">
                                         <div class="twm-media cat-bg-clr-4">
                                             <div class="flaticon-repair"></div>
                                         </div>
                                         <div class="twm-content">
-                                            <a href="job-detail.html">BI & Data Intelligence </a>
+                                            <a href="{{ route ('di_bi')}}">BI & Data Intelligence </a>
                                             <div class="twm-jobs-available"></div>
 
                                         </div>
                                     </div>
+                                </a>
                                 </div>
                                 <!-- Add Pagination -->
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-button-next"></div>
+                                {{-- <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div> --}}
                             </div>
 
                         </div>
@@ -365,6 +375,128 @@
 
                 </div>
                 <!-- job categories and Recruiters END -->
+
+                {{-- services view inmobile strat --}}
+                <div class="section-full p-t30 p-b30 site-bg-gray twm-job-categories-area2 hide-in-desktop">
+                    <!-- TITLE START-->
+                    <!-- <div class="section-head center wt-small-separator-outer">
+                        <div class="wt-small-separator site-text-primary">
+                           <div>Jobs by Categories</div>                                
+                        </div>
+                        <h2 class="wt-title">Choose Your Desire Category</h2>
+                    </div>                   -->
+                    <!-- TITLE END--> 
+                    
+                    <div class="container">
+    
+                        <div class="twm-job-categories-section-2">
+                           
+                            <div class="job-categories-style1 m-b30">
+                                <div class="row">
+                                
+                                    <!-- COLUMNS 1 --> 
+                                    <div class="col-lg-4 col-md-5">
+                                      
+                                        <a href="{{ route ('staffing')}}">
+                                        <div class="job-categories-block-2 m-b30">
+                                            <div class="twm-media">
+                                              <div><img src="{{('images/servicesimg/S.permanent.png')}}" alt=""></div>
+                                            </div>                                   
+                                            <div class="twm-content">
+                                                <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Staffing Management </h3></div>
+                                              
+                                                {{-- <a href=""><p>Help find career employees for technology and business requirements that match the skills required and organizational values.</p></a> --}}
+                                            </div>                             
+                                        </div>
+                                    </a>
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-5">
+                                         <a href="{{ route ('iot')}}">
+                                        <div class="job-categories-block-2 m-b30">
+                                            <div class="twm-media">
+                                              <div><img src="{{('images/servicesimg/iot2.png')}}" alt=""></div>
+                                            </div>                                   
+                                            <div class="twm-content">
+                                                <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">IOT Integration</h3></div>
+                                              
+                                                {{-- <a href=""><p>Help find career employees for technology and business requirements that match the skills required and organizational values.</p></a> --}}
+                                            </div>                               
+                                        </div></a>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-5">
+                                         <a href="{{ route ('ai_ml')}}">
+                                        <div class="job-categories-block-2 m-b30">
+                                            <div class="twm-media">
+                                              <div><img src="{{('images/servicesimg/ai2.png')}}" alt=""></div>
+                                            </div>                                   
+                                            <div class="twm-content">
+                                                <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Artificial intelligence and Machine Learning  </h3></div>
+                                              
+                                                {{-- <a href=""><p>Help find career employees for technology and business requirements that match the skills required and organizational values.</p></a> --}}
+                                            </div>                               
+                                        </div></a>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-5">
+                                         <a href="{{ route ('di_bi')}}">
+                                        <div class="job-categories-block-2 m-b30">
+                                            <div class="twm-media">
+                                              <div><img src="{{('images/servicesimg/BI.png')}}" alt=""></div>
+                                            </div>                                   
+                                            <div class="twm-content">
+                                                <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Data & Business Intelligence</h3></div>
+                                              
+                                                {{-- <a href=""><p>Help find career employees for technology and business requirements that match the skills required and organizational values.</p></a> --}}
+                                            </div>                               
+                                        </div></a>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-5">
+                                         <a href="{{ route ('dw_eng')}}">
+                                        <div class="job-categories-block-2 m-b30">
+                                            <div class="twm-media">
+                                              <div><img src="{{('images/servicesimg/dw3.png')}}" alt=""></div>
+                                            </div>                                   
+                                            <div class="twm-content">
+                                                <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Data Warehouse & Intelligence</h3></div>
+                                              
+                                                {{-- <a href=""><p>Help find career employees for technology and business requirements that match the skills required and organizational values.</p></a> --}}
+                                            </div>                               
+                                        </div></a>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-5">
+                                         <a href="{{ route ('software')}}">
+                                        <div class="job-categories-block-2 m-b30">
+                                            <div class="twm-media">
+                                              <div><img src="{{('images/servicesimg/API.png')}}" alt=""></div>
+                                            </div>                                   
+                                            <div class="twm-content">
+                                                <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Software Application Development</h3></div>
+                                              
+                                                {{-- <a href=""><p>Help find career employees for technology and business requirements that match the skills required and organizational values.</p></a> --}}
+                                            </div>                               
+                                        </div></a>
+                                    </div>
+                                    
+                                    
+                                                                       
+    
+                                </div>
+                            </div>
+    
+                            <!-- <div class="text-center job-categories-btn">
+                                <a href="job-list.html" class=" site-button">All Categories</a>
+                            </div> -->
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+                {{-- services view in desktop ends --}}
 
                 <!-- TOP COMPANIES START -->
                 <div class="section-full p-t120 p-b90 site-bg-white twm-companies-wrap twm-companies-wrap-h-page-7 pos-relative"
@@ -521,7 +653,7 @@
                     <div class="section-content">
                         <div class="row">
                             <div class="col-lg-3 col-md-12">
-                                <div class="twm-nl-map-media-wrap">
+                                <div class="twm-nl-map-media-wrap hide-in-mobile">
                                     <div class="twm-nl-map-pointer">
                                         <div class="twm-nl-map-pic nw-pic1 bounce">
                                             <img src="{{('images/nl-pic/pic1.jpg')}}" alt="#">
@@ -541,20 +673,20 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="twm-sub-2-section site-bg-cover"
                                     style="background-image: url{{('images/nwl-bg.png')}};">
-                                    <h3 class="twm-sub-title">Resume Parser </h3>
-                                    <div class="twm-sub-discription">Get the latest Technologies to manage and enhance
-                                        your work with us. Share your email today for free demo.</div>
+                                    <h3 class="twm-sub-title"></h3>
+                                    <div class="twm-sub-discription">Get the latest technologies to manage and enhance
+                                        your work with us. Unlock exclusive updates, insider insights, and exciting opportunities.</div>
                                     <form>
                                         <div class="form-group">
                                             <input name="news-letter" class="form-control"
                                                 placeholder="Enter Your Email Address" type="text">
                                         </div>
-                                        <button class="site-button twm-sub-btn white">GET FREE DEMO</button>
+                                        <button class="site-button twm-sub-btn white">Submit Here</button>
                                     </form>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-12">
-                                <div class="twm-nl-map-media-wrap">
+                                <div class="twm-nl-map-media-wrap hide-in-mobile">
                                     <div class="twm-nl-map-pointer">
                                         <div class="twm-nl-map-pic nw-pic5 bounce">
                                             <img src="{{('images/nl-pic/pic5.jpg')}}" alt="#">

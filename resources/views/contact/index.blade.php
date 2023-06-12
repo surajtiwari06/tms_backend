@@ -44,7 +44,7 @@
                                         <!-- TITLE START-->
                                         <div class="section-head left wt-small-separator-outer">
                                             <h2 class="wt-title">Send Us a Message</h2>
-                                            <p>Feel free to contact us and we will get back to you as soon as we can.</p>
+                                            <p>We value your feedback, inquiries, and partnership opportunities. Please use the form below to reach out to us, and we will get back to you as soon as possible. </p>
                                         </div>
                                         @if (session('success'))
     <div class="alert alert-success">
@@ -132,8 +132,12 @@
                                                     
                                                     <div class="c-info-column">
                                                         <div class="c-info-icon"><i class=" fas fa-map-marker-alt"></i></div>
-                                                        <p><span>Corporate Headquarters:</span>TMS LLC
-                                                            8 Campus Drive, Parsippany-Troy Hills, New Jersey 07054, United States </p>
+                                                        <a href="https://www.google.com/maps?q=TMS LLC
+                                                        8 Campus Drive, Parsippany-Troy Hills, New Jersey 07054, United States">
+                                                            <p><span>Corporate Headquarters:</span>TMS LLC
+                                                                8 Campus Drive, Parsippany-Troy Hills, New Jersey 07054, United States </p>
+                                                          </a>
+                                                        
                                                     </div>  
 
                                                     <div class="c-info-column">
@@ -146,7 +150,8 @@
                                                     <div class="c-info-column">
                                                         <div class="c-info-icon"><i class="fas fa-envelope"></i></div>
                                                         <h3 class="twm-title">Support</h3>
-                                                        <p>info@linktms.com</p>
+                                                        <p><a href="mailto:info@linktms.com">info@linktms.com</a></p>
+                                                        
                                                        
                                                     </div>
                                             
