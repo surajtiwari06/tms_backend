@@ -438,8 +438,8 @@
 </div>
 <!-- TOP COMPANIES END -->
       
-  <!-- contact form SECTION START -->
-  <div class="section-full twm-hpage-6-subs-wrap bg-cover " style="background-image: url(images/home-6/subscribe-bg.jpg)">
+   <!-- SUBSCRIBE SECTION START -->
+   <div class="section-full twm-hpage-6-subs-wrap bg-cover " style="background-image: url(images/home-6/subscribe-bg.jpg)">
     <div class="container">
 
         <div class="section-content">
@@ -451,19 +451,19 @@
                             <div class="callus-bg-box-shadow"></div>
                         </div>
                         <div class="twm-hpage-6-getintouch-title">
-                            <div class="wt-title-small">Latest Updates</div>
                             <h2 class="wt-title">
-                                Get your <span>Free</span>
-                                 consultation
+                                Elevate your business with<span> expert consultation </span>
                             </h2>
+                            <div class="wt-title-small"> </div>
+                         
                         </div>
                         <div class="twm-hpage-6-callus">
                             <div class="callus-icon">
                                 <i class="flaticon-phone"></i>
                             </div>
                             <div class="callus-content">
-                                <div class="callus-number">201-254-7297</div> 
-                                <div class="callus-email">Info@tms.com</div>
+                                <div class="callus-number"><a href="tel:201-254-7297" class="site-text-white"><p>201-254-7297</p></a></div> 
+                                <div class="callus-email"><a class="site-text-white" href="mailto:info@linktms.com"><p>info@linktms.com</p></a></div>
                             </div>
                         </div>
                     </div>
@@ -473,56 +473,72 @@
                    <div class="twm-hpage-6-subscribe-wrap">
                        <div class="hpage-6-nw-form-corner-wrap">
                             <div class="twm-hpage-6-subscribe">
-                                <div class="contact-form-outer">
+                                <h3 class="twm-sub-title">Connect with us today</h3>
+                                {{-- <div class="twm-sub-discription">
+                                    With the latest industry insights and growth strategies. Act now to propel your business forward.
+                                </div> --}}
+                                <form class="cons-contact-form" method="POST" action="{{ route('contact.store') }}">
+                                    @csrf
+                                    <div class="row">
 
-                                    <!-- TITLE START-->
-                                    <div class="section-head left wt-small-separator-outer">
-                                        <h2 class="wt-title" style="color:#002860 ;">Send Us a Message</h2>
-                                        <p>Drop your details and we will get back to you.</p>
-                                    </div>
-                                    <!-- TITLE END--> 
-
-                                    <form  class="cons-contact-form" method="post" action="#" ">
-                                        <div class="row">
-
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="form-group mb-3">
-                                                    <input name="username" type="text" required class="form-control" placeholder="Name">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="form-group mb-3">
-                                                <input name="email" type="text" class="form-control" required placeholder="Email">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="form-group mb-3">
-                                                    <input name="phone" type="text" class="form-control" required placeholder="Phone">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="form-group mb-3">
-                                                    <input name="subject" type="text" class="form-control" required placeholder="Subject">
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-12">
-                                                <div class="form-group mb-3">
-                                                <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-md-12">
-                                                <button type="submit" class="site-button"
-                                                style="color: #011736; background-color: #002860;">Submit Now</button>
-                                            </div>
-                                            
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group mb-3">
+                                                <input type="text" name="name" class="form-control" value="{{ old('name') }}" placeholder="Name">
+                                                @error('name')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                @enderror
+                                             </div>
                                         </div>
-                                    </form>
-                                </div>
+                                        
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group mb-3">
+                                                <input type="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="Email">
+                                                @error('email')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group mb-3">
+                                                <input type="number" name="phone" class="form-control" value="{{ old('phone') }}" placeholder="Phone">
+                                                @error('phone')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                @enderror
+                                                <style>
+                                                    input::-webkit-outer-spin-button,
+                                                    input::-webkit-inner-spin-button {
+                                                      display: none;
+                                                    }
+                                                    input[type=number] { -moz-appearance: textfield;}
+                                                  </style>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-group mb-3">
+                                                <input type="text" name="subject" class="form-control" value="{{ old('subject') }}" placeholder="Subject">
+                                                @error('subject')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                @enderror
+                                    </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-12">
+                                            <div class="form-group mb-3">
+                                                <textarea name="message" class="form-control" placeholder="Message">{{ old('message') }}</textarea>
+                                        @error('message')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <button type="submit" class="site-button">Submit Now</button>
+                                        </div>
+                                        
+                                    </div>
+                                </form>
                             </div>
                             <div class="hpage-6-nw-form-corner"></div>
                         </div>
@@ -534,5 +550,5 @@
        
     </div>
 </div>
-<!-- contact formSECTION END -->
+<!-- SUBSCRIBE SECTION END -->
  @endsection

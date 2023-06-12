@@ -41,10 +41,10 @@
                                 <div class="col-lg-6 col-md-12">
                                     <div class="contact-form-outer">
 
-                                        <!-- TITLE START-->
+                                        <!-- TITLE START--> 
                                         <div class="section-head left wt-small-separator-outer">
-                                            <h2 class="wt-title">Send Us a Message</h2>
-                                            <p>Feel free to contact us and we will get back to you as soon as we can.</p>
+                                            <h2 class="wt-title">Need assistance or have a question?</h2>
+                                            <p>Don't hesitate to contact us. We're just a message away, ready to provide the support you require.</p>
                                         </div>
                                         <!-- TITLE END--> 
                                         <form class="cons-contact-form" method="POST" action="{{ route('contact.store') }}">

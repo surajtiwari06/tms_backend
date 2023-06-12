@@ -43,6 +43,19 @@
   width: 50%;
 }
 </style>
+<style>
+    @media (max-width: 767px) {
+        .hide-in-mobile {
+            display: none;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .hide-in-desktop {
+            display: none;
+        }
+    }
+</style>
 
 </head>
 
@@ -90,34 +103,30 @@
                 <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
 
                     <ul class=" nav navbar-nav">
-                        <li class="has-child"><a href="{{ route('home') }}">Home</a>
-
-                            <ul class="sub-menu">
-                                
-                                <!-- <li><a href="index-2.html">Home-2</a></li> -->
-                               
-                            </ul>                                                                 
-                        </li>
+                        <li class="has-child"><a href="{{ route('home') }}">Home</a>  </li>
 
                         <li class="has-child"><a href="{{ route('about') }}">About Us</a> </li>
                         <li class="has-child"><a href="#">Services</a>
                         
-                            <ul class="sub-menu">
+                            <ul class="sub-menu mt-3">
                                 <li><a href="{{ route('staffing') }}">Staffing Services</a></li>
                                 <li><a href="{{ route('iot') }}">IOT Integration</a></li> 
-                                <li><a href="{{ route('ai_ml') }}">AI and Ml</a></li>
-                                <li><a href="{{ route('di_bi') }}">Data Intelligence & BI</a></li>
-                                <li><a href="{{ route('dw_eng') }}">Data Warehouse & Engineering</a></li>
                                 <li><a href="{{ route('software') }}">Software Application</a></li>
-                            
-                            </ul>                                                                
+                                <li><a href="{{ route('ai_ml') }}">Artificial Intelligence and Machine Learning </a></li>
+                                <li><a href="{{ route('di_bi') }}">Data Intelligence & Business Intelligence</a></li>
+                                <li><a href="{{ route('dw_eng') }}">Data Warehouse & Engineering</a></li>
+                               
+                                
+                            </ul>  
+                                                                                          
                         </li>
-                        <li><a href="{{ route('resume_parser') }}">Resume Parser</a></li>
+                        {{-- <li><a href="{{ route('resume_parser') }}">Resume Parser</a></li> --}}
                           <li><a href="{{ route('career') }}">Career</a></li>
-                                                                                           
-                       
+                                                        
                        
                     </ul>
+
+                    
 
                 </div>
                 
@@ -216,7 +225,7 @@
                                             <li><a href="{{ route('about') }}">About Us</a></li>
                                              <li><a href="{{ route('career') }}">Career</a></li>
                                             <!-- <li><a href="blog.html">Blog</a></li> -->
-                        <li><a href="{{ route('resume_parser') }}">Resume Parser</a></li>
+                        {{-- <li><a href="{{ route('resume_parser') }}">Resume Parser</a></li> --}}
 
                                             {{-- <li><a href="{{ route('about') }}">Resume Parser</a></li> --}}
                                             <!-- <li><a href="contact.html">Contact Us</a></li> -->
@@ -225,10 +234,14 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">  
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">Our Address:</h3>
+                                        <h3 class="widget-title">Our Address</h3>
                                         <ul class="ftr-list">
-                                            <li><p><span><b>Corporate Headquarters:</b></span><br>TMS LLC
-                                                8 Campus Drive, Parsippany - Troy  Hills,<br> New Jersey, United States<br> 07054</p></li>
+                                            <li><p><span>Corporate Headquarters</span><br> <a href="https://www.google.com/maps?q=TMS LLC 8 Campus Drive Parsippany-Troy Hills New Jersey 07054 United States">
+                                                    <p><strong class="site-text-primary">TMS LLC</strong><br>
+                                                        8 Campus Drive, Parsippany-Troy Hills, New Jersey 07054, United States </p>
+                                                  </a>                                                          </a>
+
+                                            </p></li>
                                             <!-- <li><p><span>Email :</span> info@linktms.com</p></li>
                                             <li><p><span>Call :</span>201-254-7297</p></li> -->
                                         </ul>
@@ -236,12 +249,12 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">  
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">Contact Us:</h3>
+                                        <h3 class="widget-title">Contact Us</h3>
                                         <ul class="ftr-list">
                                             <!-- <li><p><span>Corporate Headquarters:</span><br>TMS LLC
                                                 8 Campus Drive, Parsippany-Troy Hills,<br> New Jersey, United States<br> 07054</p></li> -->
-                                            <li><p><span><b> Email :</b></span> info@linktms.com</p></li>
-                                            <li><p><span><b>Call :</b></span>201-254-7297</p></li>
+                                            <li><span><b> Email :</b></span><a href="mailto:info@linktms.com"><p>info@linktms.com</p></a></li>
+                                            <li><p><span><b>Call :</b></span><a href="tel:201-254-7297">201-254-7297</a></p></li>
                                         </ul>
                                     </div>
                                 </div>

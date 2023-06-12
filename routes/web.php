@@ -31,11 +31,11 @@ Route::get('/iot', function () {
 })->name('iot'); 
 
 Route::get('/ai_ml', function () {
-    return view('services.ai_ml');
+    return view('services.aiml');
 })->name('ai_ml'); 
 
 Route::get('/di_bi', function () {
-    return view('services.dataInt&BI');
+    return view('services.dibi');
 })->name('di_bi'); 
 
 Route::get('/dw_eng', function () {
