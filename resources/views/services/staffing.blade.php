@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
  <!-- INNER PAGE BANNER -->
- <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image:url(images/banner/1.jpg);">
+ <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image:url('{{ asset('images/banner/1.jpg') }}');">
     <div class="overlay-main site-bg-white opacity-01"></div>
     <div class="container">
         <div class="wt-bnr-inr-entry">
@@ -115,7 +115,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="twm-about-1-section">
                                     <div class="twm-media">
-                                        <img src="images/servicesimg/young-woman-cover-her-face-with-digital-tablet-isolated-whit-removebg-preview.png" alt="">
+                                        <img src="{{ asset('images/servicesimg/young-woman-cover-her-face-with-digital-tablet-isolated-whit-removebg-preview.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@
                                 <!--icon-block-1-->
                                 <div class="twm-card-blocks">
                                     <div class="twm-icon pink">
-                                        <img src="images/main-slider/slider2/icon-2.png" alt="">
+                                        <img src="{{ asset('images/main-slider/slider2/icon-2.png') }}" alt="">
                                     </div>
                                     <div class="twm-content">
                                         <div class="tw-count-number text-clr-pink">
@@ -179,12 +179,12 @@
                                 <!--icon-block-2-->
                                 <div class="twm-card-blocks-2">
                                     <div class="twm-pics">
-                                        <span><img src="images/main-slider/slider2/user/u-1.jpg" alt=""></span>
-                                        <span><img src="images/main-slider/slider2/user/u-2.jpg" alt=""></span>
-                                        <span><img src="images/main-slider/slider2/user/u-3.jpg" alt=""></span>
-                                        <span><img src="images/main-slider/slider2/user/u-4.jpg" alt=""></span>
-                                        <span><img src="images/main-slider/slider2/user/u-5.jpg" alt=""></span>
-                                        <span><img src="images/main-slider/slider2/user/u-6.jpg" alt=""></span>
+                                        <span><img src="{{ asset('images/main-slider/slider2/user/u-1.jpg') }}" alt=""></span>
+                                        <span><img src="{{ asset('images/main-slider/slider2/user/u-2.jpg') }}" alt=""></span>
+                                        <span><img src="{{ asset('images/main-slider/slider2/user/u-3.jpg') }}" alt=""></span>
+                                        <span><img src="{{ asset('images/main-slider/slider2/user/u-4.jpg') }}" alt=""></span>
+                                        <span><img src="{{ asset('images/main-slider/slider2/user/u-5.jpg') }}" alt=""></span>
+                                        <span><img src="{{ asset('images/main-slider/slider2/user/u-6.jpg') }}" alt=""></span>
                                     </div>
                                     <div class="twm-content">
                                         <div class="tw-count-number text-clr-green">
@@ -199,7 +199,7 @@
                                 <!--icon-block-3-->
                                 <div class="twm-card-blocks">
                                     <div class="twm-icon">
-                                        <img src="images/main-slider/slider2/icon-1.png" alt="">
+                                        <img src="{{ asset('images/main-slider/slider2/icon-1.png') }}" alt="">
                                     </div>
                                     <div class="twm-content">
                                         <div class="tw-count-number text-clr-sky">
@@ -225,7 +225,7 @@
             <!-- slient feautures Work START -->
          
                <!-- OUR BLOG START -->
-               <div class="section-full p-t70 p-b90 site-bg-gray bg-cover overlay-wraper" style="background-image:url(images/background/bg-1.jpg)">
+               <div class="section-full p-t70 p-b90 site-bg-gray bg-cover overlay-wraper" style="background-image:url('{{ asset('images/background/bg-1.jpg') }}')">
                 <div class="overlay-main site-bg-primary opacity-01"></div>
                 <div class="container">
                    
@@ -397,7 +397,7 @@
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo client-logo-media">
-                            <a href=""><img src="images/client-logo/alight.png"
+                            <a href=""><img src="{{ asset('images/client-logo/alight.png')}}"
                                     alt=""></a>
                         </div>
                     </div>
@@ -406,7 +406,7 @@
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo client-logo-media">
-                            <a href=""><img src="images/client-logo/conduent.png"
+                            <a href=""><img src="{{ asset('images/client-logo/conduent.png')}}"
                                     alt=""></a>
                         </div>
                     </div>
@@ -415,7 +415,7 @@
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo client-logo-media">
-                            <a href=""><img src="images/client-logo/dtcc.png"
+                            <a href=""><img src="{{ asset('images/client-logo/dtcc.png')}}"
                                     alt=""></a>
                         </div>
                     </div>
@@ -424,7 +424,7 @@
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo client-logo-media">
-                            <a href=""><img src="images/client-logo/Ebix.png"
+                            <a href=""><img src="{{ asset('images/client-logo/Ebix.png')}}"
                                     alt=""></a>
                         </div>
                     </div>
@@ -433,18 +433,19 @@
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo client-logo-media">
-                            <a href=""><img src="images/client-logo/mastercard.png"
+                            <a href=""><img src="{{ asset('images/client-logo/mastercard.png')}}"
                                     alt=""></a>
                         </div>
                     </div>
                 </div>
 
+             
 
              
                 <div class="item">
                     <div class="ow-client-logo">
                         <div class="client-logo client-logo-media">
-                            <a href=""><img src="images/client-logo/uzio.png"
+                            <a href=""><img src="{{ asset('images/client-logo/uzio.png')}}"
                                     alt=""></a>
                         </div>
                     </div>
@@ -452,14 +453,14 @@
                 
             </div>
         </div>
-    </div>
+    </div>  
   
 
 </div>
 <!-- TOP COMPANIES END -->
       
   <!-- SUBSCRIBE SECTION START -->
-  <div class="section-full twm-hpage-6-subs-wrap bg-cover " style="background-image: url(images/home-6/subscribe-bg.jpg)">
+  <div class="section-full twm-hpage-6-subs-wrap bg-cover " style="background-image: url('{{ asset('images/home-6/subscribe-bg.jpg') }}');">
     <div class="container">
 
         <div class="section-content">

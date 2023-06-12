@@ -136,7 +136,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-12 twm-bnr-right-section hide-in-mobile">
                             <div class="twm-bnr-right-content">
                                 <div class="bnr-media">
-                                    <img src="{{('images/main-slider/slider1/r-img2.png')}}" alt="#">
+                                    <img src="{{asset('images/main-slider/slider1/r-img2.png')}}" alt="#">
                                 </div>
                                 <div class="bnr-bg-circle">
                                     <span></span>
@@ -152,7 +152,7 @@
 
                                     <div class="bnr-block-1 bounce hide-in-mobile">
                                         <div class="bnr-block-1-content">
-                                            <div class="media"><img src="images/home-6/bag.png" alt=""></div>
+                                            <div class="media"><img src="{{asset('images/home-6/bag.png')}}" alt=""></div>
                                             <h3 class="title">Innovation</h3>
                                         </div>
                                     </div>
@@ -164,14 +164,14 @@
                                             </div> --}}
                                             <div class="bnr-block-2-content-top">
                                                <h3 class="title">Growth  &nbsp;</h3>
-                                               <div class="media"><img src="images/home-6/graph-icon.png" alt=""></div>  
+                                               <div class="media"><img src="{{asset('images/home-6/graph-icon.png')}}" alt=""></div>  
                                             </div>
                                             <div class="bnr-block-2-content-bottom"></div>
                                             
                                         </div>
                                     </div>
                                     <div class="bnr-block-3 bounce hide-in-mobile">
-                                        <img src="images/main-slider/slider1/icon-2.png" alt="#">
+                                        <img src="{{asset('images/main-slider/slider1/icon-2.png')}}" alt="#">
                                     </div>
                                      
 
@@ -382,62 +382,62 @@
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/alight.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/alight.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/conduent.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/conduent.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/uzio.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/uzio.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/mastercard.png')}}" alt=""></a></div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="item">
-                                            <div class="ow-client-logo">
-                                                <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/Ebix.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/mastercard.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/dtcc.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/Ebix.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/scholastic.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/dtcc.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/synchrony.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/scholastic.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
                                         <div class="item">
                                             <div class="ow-client-logo">
                                                 <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/uzio.png')}}" alt=""></a></div>
+                                                <a href=""><img src="{{asset('images/client-logo/synchrony.png')}}" alt=""></a></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="item">
+                                            <div class="ow-client-logo">
+                                                <div class="client-logo client-logo-media">
+                                                <a href=""><img src="{{asset('images/client-logo/uzio.png')}}" alt=""></a></div>
                                             </div>
                                         </div>
                                         
@@ -459,9 +459,9 @@
 
                                 <div class="twm-media">
                                     <div  class="hide-in-desktop">
-                                    <img src="{{('images/testimonials/pic-4.png')}}" alt="#">
+                                    <img src="{{asset('images/testimonials/pic-4.png')}}" alt="#">
                                 </div>
-                                <div  class="hide-in-mobile"> <img src="{{('images/home-6/get-job-pic.png')}}" alt="#"></div>
+                                <div  class="hide-in-mobile"> <img src="{{asset('images/home-6/get-job-pic.png')}}" alt="#"></div>
                                    
                                     <div class="twm-media-bg-circle"></div>
                                     <div class="twm-media-bg-circle2"></div>
@@ -514,7 +514,7 @@
 
  
      <!-- HOW IT WORK SECTION START1 -->
- <div class="section-full p-t120 p-b90 twm-how-it-work-area" style="background-image: url(images/home-7/hiw-bg.jpg);">
+ <div class="section-full p-t120 p-b90 twm-how-it-work-area" style="background-image:  url('{{ asset('images/home-7/hiw-bg.jpg') }}');">
                         
     <div class="container">
 
@@ -535,7 +535,7 @@
                     <div class="twm-w-process-steps-h-page-7">
                         <div class="twm-w-pro-top">
                             <div class="twm-media">
-                                <span><img src="{{('images/work-process/icon1.png')}}" alt="icon1"></span>
+                                <span><img src="{{asset('images/work-process/icon1.png')}}" alt="icon1"></span>
                             </div>
                             <span class="twm-large-number  text-clr-sky">01</span>
                         </div>
@@ -548,7 +548,7 @@
                     <div class="twm-w-process-steps-h-page-7">
                         <div class="twm-w-pro-top">
                             <div class="twm-media">
-                                <span><img src="{{('images/work-process/icon2.png')}}" alt="icon1"></span>
+                                <span><img src="{{asset('images/work-process/icon2.png')}}" alt="icon1"></span>
                             </div>
                             <span class="twm-large-number text-clr-pink">02</span>
                         </div>
@@ -561,7 +561,7 @@
                     <div class="twm-w-process-steps-h-page-7">
                         <div class="twm-w-pro-top">
                             <div class="twm-media">
-                                <span><img src="{{('images/work-process/icon3.png')}}" alt="icon1"></span>
+                                <span><img src="{{asset('images/work-process/icon3.png')}}" alt="icon1"></span>
                             </div>
                             <span class="twm-large-number  text-clr-green">03</span>
                         </div>
@@ -594,7 +594,7 @@
 
     <div class="section-content twm-jobs-grid-h5-section-outer ">
         <div class="twm-jobs-grid-h5-section overlay-wraper"
-            style="background-image: url{{('images/home-5/cate-bg.jpg')}};">
+            style="background-image: url{{asset('images/home-5/cate-bg.jpg')}};">
             <div class="overlay-main site-bg-primary opacity-09"></div>
 
             <div class="swiper-container category-5-slider">
@@ -717,7 +717,7 @@
 <!-- Jobs Category end-->
           
             <!-- Our Comunity SECTION START -->
-            <div class="section-full p-t120 site-bg-white twm-our-comu-hpage-6-area" style="background-image: url(images/home-6/our-com-bg.jpg);">
+            <div class="section-full p-t120 site-bg-white twm-our-comu-hpage-6-area" style="background-image:url('{{ asset('images/home-6/our-com-bg.jpg') }}');">
                 <div class="container">
                     <!-- TITLE START-->
                     <div class="wt-separator-two-part content-white">
@@ -856,7 +856,7 @@
                                 <div class="col-xl-7 col-lg-12 col-md-12">
                                     <div class="v-testimonial-wrap">
                                         <div class="v-testi-dotted-pic">
-                                            <img src="{{('images/home-6/testimonial/dotted-block.png')}}" alt="#">
+                                            <img src="{{asset('images/home-6/testimonial/dotted-block.png')}}" alt="#">
                                         </div>
                                         <!-- Swiper -->
                                         <div class="swiper-container v-testimonial-slider">
@@ -867,7 +867,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="testimonials-v">
                                                         <div class="twm-testi-media">
-                                                            <img src="{{('images/home-6/testimonial/pic1.jpg')}}" alt="#">
+                                                            <img src="{{asset('images/home-6/testimonial/pic1.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="testimonial-v-content">
                                                             <div class="t-testimonial-top">
@@ -895,7 +895,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="testimonials-v">
                                                         <div class="twm-testi-media">
-                                                            <img src="{{('images/home-6/testimonial/pic2.jpg')}}" alt="#">
+                                                            <img src="{{asset('images/home-6/testimonial/pic2.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="testimonial-v-content">
                                                             <div class="t-testimonial-top">
@@ -923,7 +923,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="testimonials-v">
                                                         <div class="twm-testi-media">
-                                                            <img src="{{('images/home-6/testimonial/pic3.jpg')}}" alt="#">
+                                                            <img src="{{asset('images/home-6/testimonial/pic3.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="testimonial-v-content">
                                                             <div class="t-testimonial-top">
@@ -951,7 +951,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="testimonials-v">
                                                         <div class="twm-testi-media">
-                                                            <img src="{{('images/home-6/testimonial/pic1.jpg')}}" alt="#">
+                                                            <img src="{{asset('images/home-6/testimonial/pic1.jpg')}}" alt="#">
                                                         </div>
                                                         <div class="testimonial-v-content">
                                                             <div class="t-testimonial-top">
@@ -1015,70 +1015,70 @@
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w1.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w1.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w2.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w2.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w3.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{('assetimages/client-logo2/w3.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w4.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w4.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w5.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w5.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w6.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w6.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w1.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w1.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w2.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w2.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w3.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w3.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
                    <div class="item">
                        <div class="ow-client-logo">
                            <div class="client-logo client-logo-media">
-                           <a href=""><img src="{{('images/client-logo2/w5.png')}}" alt=""></a></div>
+                           <a href=""><img src="{{asset('images/client-logo2/w5.png')}}" alt=""></a></div>
                        </div>
                    </div>
                    
@@ -1091,7 +1091,7 @@
 <!-- company logos end -->
 <!-- TOP COMPANIES END -->
             <!-- SUBSCRIBE SECTION START -->
-            <div class="section-full twm-hpage-6-subs-wrap bg-cover " style="background-image: url(images/home-6/subscribe-bg.jpg)">
+            <div class="section-full twm-hpage-6-subs-wrap bg-cover "  style="background-image: url('{{ asset('images/home-6/subscribe-bg.jpg') }}');;">
                 <div class="container">
 
                     <div class="section-content">

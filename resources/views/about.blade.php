@@ -11,7 +11,7 @@
                                 <div class="twm-media">
 
                                    
-                                    <div class=""><img src="{{('images/boy-large.png')}}"alt=""></div>
+                                    <div class=""><img src="{{ asset('images/boy-large.png')}}"alt=""></div>
                                     <div class="twm-media-bg-circle2"></div>
                                     <div class="twm-media-bg-circle3">
                                         <div class="rotate-center">
@@ -257,7 +257,7 @@
 
                 <div class="section-content twm-jobs-grid-h5-section-outer hide-in-mobile">
                     <div class="twm-jobs-grid-h5-section overlay-wraper"
-                        style="background-image: url{{('images/home-5/cate-bg.jpg')}};">
+                        style="background-image: url{{ asset('images/home-5/cate-bg.jpg')}};">
                         <div class="overlay-main site-bg-primary opacity-09"></div>
 
                         <div class="swiper-container category-5-slider">
@@ -400,7 +400,7 @@
                                         <a href="{{ route ('staffing')}}">
                                         <div class="job-categories-block-2 m-b30">
                                             <div class="twm-media">
-                                              <div><img src="{{('images/servicesimg/S.permanent.png')}}" alt=""></div>
+                                              <div><img src="{{ asset('images/servicesimg/S.permanent.png')}}" alt=""></div>
                                             </div>                                   
                                             <div class="twm-content">
                                                 <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Staffing Management </h3></div>
@@ -415,7 +415,7 @@
                                          <a href="{{ route ('iot')}}">
                                         <div class="job-categories-block-2 m-b30">
                                             <div class="twm-media">
-                                              <div><img src="{{('images/servicesimg/iot2.png')}}" alt=""></div>
+                                              <div><img src="{{ asset('images/servicesimg/iot2.png')}}" alt=""></div>
                                             </div>                                   
                                             <div class="twm-content">
                                                 <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">IOT Integration</h3></div>
@@ -429,7 +429,7 @@
                                          <a href="{{ route ('ai_ml')}}">
                                         <div class="job-categories-block-2 m-b30">
                                             <div class="twm-media">
-                                              <div><img src="{{('images/servicesimg/ai2.png')}}" alt=""></div>
+                                              <div><img src="{{ asset('images/servicesimg/ai2.png')}}" alt=""></div>
                                             </div>                                   
                                             <div class="twm-content">
                                                 <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Artificial intelligence and Machine Learning  </h3></div>
@@ -443,7 +443,7 @@
                                          <a href="{{ route ('di_bi')}}">
                                         <div class="job-categories-block-2 m-b30">
                                             <div class="twm-media">
-                                              <div><img src="{{('images/servicesimg/BI.png')}}" alt=""></div>
+                                              <div><img src="{{ asset('images/servicesimg/BI.png')}}" alt=""></div>
                                             </div>                                   
                                             <div class="twm-content">
                                                 <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Data & Business Intelligence</h3></div>
@@ -457,7 +457,7 @@
                                          <a href="{{ route ('dw_eng')}}">
                                         <div class="job-categories-block-2 m-b30">
                                             <div class="twm-media">
-                                              <div><img src="{{('images/servicesimg/dw3.png')}}" alt=""></div>
+                                              <div><img src="{{ asset('images/servicesimg/dw3.png')}}" alt=""></div>
                                             </div>                                   
                                             <div class="twm-content">
                                                 <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Data Warehouse & Intelligence</h3></div>
@@ -471,7 +471,7 @@
                                          <a href="{{ route ('software')}}">
                                         <div class="job-categories-block-2 m-b30">
                                             <div class="twm-media">
-                                              <div><img src="{{('images/servicesimg/API.png')}}" alt=""></div>
+                                              <div><img src="{{ asset('images/servicesimg/API.png')}}" alt=""></div>
                                             </div>                                   
                                             <div class="twm-content">
                                                 <div class="twm-jobs-available"><h3 class="site-text-primary mt-2">Software Application Development</h3></div>
@@ -519,7 +519,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/alight.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/alight.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -528,7 +528,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/conduent.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/conduent.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -537,7 +537,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/dtcc.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/dtcc.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -546,7 +546,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/Ebix.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/Ebix.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -555,7 +555,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/mastercard.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/mastercard.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -564,7 +564,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/scholastic.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/scholastic.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -573,7 +573,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/synchrony.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/synchrony.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -583,7 +583,7 @@
                                     <div class="item">
                                         <div class="ow-client-logo">
                                             <div class="client-logo client-logo-media">
-                                                <a href=""><img src="{{('images/client-logo/uzio.png')}}"
+                                                <a href=""><img src="{{ asset('images/client-logo/uzio.png')}}"
                                                         alt=""></a>
                                             </div>
                                         </div>
@@ -646,7 +646,7 @@
             
             <!-- Newsletter Subscriber SECTION START -->
             <div class="section-full p-t60 site-bg-white twm-new-sub-section-wrap site-bg-cover"
-                style="background-image: url{{('images/dotted-map.png')}};">
+                style="background-image: url{{ asset('images/dotted-map.png')}};">
 
                 <div class="container">
 
@@ -656,23 +656,23 @@
                                 <div class="twm-nl-map-media-wrap hide-in-mobile">
                                     <div class="twm-nl-map-pointer">
                                         <div class="twm-nl-map-pic nw-pic1 bounce">
-                                            <img src="{{('images/nl-pic/pic1.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic1.jpg')}}" alt="#">
                                         </div>
                                         <div class="twm-nl-map-pic nw-pic2 bounce2">
-                                            <img src="{{('images/nl-pic/pic2.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic2.jpg')}}" alt="#">
                                         </div>
                                         <div class="twm-nl-map-pic nw-pic3 bounce">
-                                            <img src="{{('images/nl-pic/pic3.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic3.jpg')}}" alt="#">
                                         </div>
                                         <div class="twm-nl-map-pic nw-pic4 bounce2">
-                                            <img src="{{('images/nl-pic/pic4.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic4.jpg')}}" alt="#">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <div class="twm-sub-2-section site-bg-cover"
-                                    style="background-image: url{{('images/nwl-bg.png')}};">
+                                    style="background-image: url{{ asset('images/nwl-bg.png')}};">
                                     <h3 class="twm-sub-title"></h3>
                                     <div class="twm-sub-discription">Get the latest technologies to manage and enhance
                                         your work with us. Unlock exclusive updates, insider insights, and exciting opportunities.</div>
@@ -689,13 +689,13 @@
                                 <div class="twm-nl-map-media-wrap hide-in-mobile">
                                     <div class="twm-nl-map-pointer">
                                         <div class="twm-nl-map-pic nw-pic5 bounce">
-                                            <img src="{{('images/nl-pic/pic5.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic5.jpg')}}" alt="#">
                                         </div>
                                         <div class="twm-nl-map-pic nw-pic6 bounce2">
-                                            <img src="{{('images/nl-pic/pic6.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic6.jpg')}}" alt="#">
                                         </div>
                                         <div class="twm-nl-map-pic nw-pic7 bounce">
-                                            <img src="{{('images/nl-pic/pic7.jpg')}}" alt="#">
+                                            <img src="{{ asset('images/nl-pic/pic7.jpg')}}" alt="#">
                                         </div>
                                     </div>
                                 </div>
