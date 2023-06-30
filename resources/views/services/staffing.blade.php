@@ -386,7 +386,7 @@
         <div class="wt-small-separator site-text-orange">
            <div class="site-text-orange">Top Companies</div>                                
         </div>
-        <h2 class="wt-title site-text-primary">Get hired in top companies</h2>
+        <h2 class="wt-title site-text-primary">Trusted by top-tier companies world-wide</h2>
     </div>                  
     <!-- TITLE END-->
 

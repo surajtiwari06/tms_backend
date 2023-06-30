@@ -370,7 +370,7 @@
         <div class="wt-small-separator site-text-primary">
            <div>Top Companies</div>                                
         </div>
-        <h2 class="wt-title">Get hired in top companies</h2>
+        <h2 class="wt-title">Trusted by top-tier companies world-wide</h2>
     </div>                  
     <!-- TITLE END-->
 
