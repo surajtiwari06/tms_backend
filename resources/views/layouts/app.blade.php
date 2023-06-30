@@ -111,8 +111,26 @@
                         
                             <ul class="sub-menu mt-3">
                                 <li><a href="{{ route('staffing') }}">Staffing Services</a></li>
+                               
+                                {{-- <li><a href="{{ route('software') }}">Software Application</a></li> --}}
+                                <li class="has-child"><a href="{{ route('software') }}">Software Application </a><div class="fa fa-angle-right submenu-toogle"></div>
+                                    <ul class="sub-menu">
+                                        
+                                        <li><a href="{{ route('software') }}">E-Commerce Website</a> </li>
+                                        <li><a href="{{ route('software') }}">Business Website</a> </li>
+                                        <li><a href="{{ route('software') }}">Landing Page</a> </li>
+                                        <li><a href="{{ route('software') }}">Blogging Site</a> </li>
+                                        <li><a href="{{ route('software') }}">Automative Software</a> </li>
+                                        <li><a href="{{ route('software') }}">HRM System</a> </li>
+                                        <li><a href="{{ route('software') }}">LMS System</a></li>
+                                        <li><a href="{{ route('software') }}">ERP System</a> </li>
+                                        <li><a href="{{ route('software') }}">CRM System</a></li>
+                                        <li><a href="{{ route('software') }}">Analytics & Tracking Tools</a> </li>
+                                        
+                                    </ul> 
+                              
+                                </li>
                                 <li><a href="{{ route('iot') }}">IOT Integration</a></li> 
-                                <li><a href="{{ route('software') }}">Software Application</a></li>
                                 <li><a href="{{ route('ai_ml') }}">Artificial Intelligence and Machine Learning </a></li>
                                 <li><a href="{{ route('di_bi') }}">Data Intelligence & Business Intelligence</a></li>
                                 <li><a href="{{ route('dw_eng') }}">Data Warehouse & Engineering</a></li>

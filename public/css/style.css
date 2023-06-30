@@ -144,6 +144,9 @@ This files [Table of contents] are outlined below
 .site-text-orange {
   color: #fd7e14;
 }
+.site-text-green {
+  color: #0f9d3e;
+}
 
 .site-bg-primary {
   background-color: #0f9d3e;
@@ -2190,7 +2193,7 @@ ol li {
 }
 
 .button-lg {
-  padding: 15px 30px;
+  padding: 10px 15px;
   font-size: 16px;
 }
 
@@ -7607,7 +7610,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   }
 }
 .twm-w-process-steps .twm-large-number {
-  color: #efefef;
+  color: #71717164;
   font-size: 75px;
   font-weight: 800;
   line-height: 0px;
@@ -7957,7 +7960,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   display: inline-block;
 }
 .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-date {
-  background-color: #7a98bf;
+  background-color: #0f9d3e;
   color: #fff;
   font-size: 14px;
   line-height: 28px;
@@ -7970,7 +7973,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-date:after {
   content: "";
-  background-color: #7a98bf;
+  background-color: #0f9d3e;
   position: absolute;
   top: 0px;
   left: -30px;
@@ -7988,7 +7991,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   height: 0;
   border-left: 9px solid transparent;
   border-right: 0px solid transparent;
-  border-top: 8px solid #6881a2;
+  border-top: 8px solid #0f9d3e;
 }
 .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-author {
   color: #17171d;
@@ -9172,6 +9175,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   justify-content: center;
   margin: 0px auto 30px;
 }
+
 .job-categories-block-2 .twm-media img {
   width: auto;
   transition: 0.5s all ease;
