@@ -35,7 +35,7 @@
                                         <div> </div>
                                     </div>
                                     <h2 class="wt-title"><span class="site-text-primary" style="text-align: center;">Technology Management
-                                            Solutions<span> </h2>usiness with
+                                            Solutions<span> </h2>
                                                 <div style="font-size: 17px;">  <p >Technology Management Solutions (TMS) is a digital product engineering company;
                                                     we help our clients design and build innovative products and solutions for
                                                     modern digital experience. Working with our clients at various stages from
