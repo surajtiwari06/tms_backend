@@ -20,7 +20,8 @@ use Tabuna\Breadcrumbs\Trail;
 use App\Orchid\Screens\ContactScreen;
 use App\Orchid\Screens\ContactListScreen;
 use App\Orchid\Screens\ContactEditScreen;
-
+use App\Orchid\Screens\PostEditScreen;
+use App\Orchid\Screens\PostListScreen;
 /*
 |--------------------------------------------------------------------------
 | Dashboard Routes
@@ -107,3 +108,11 @@ Route::screen('contact/{contact?}', ContactEditScreen::class)
 
 Route::screen('contacts', ContactListScreen::class)
     ->name('platform.contact.list');
+
+    // blog
+
+    Route::screen('post/{post?}', PostEditScreen::class)
+    ->name('platform.post.edit');
+
+Route::screen('posts', PostListScreen::class)
+    ->name('platform.post.list');
