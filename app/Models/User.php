@@ -3,6 +3,8 @@
 namespace App\Models;
 
 use Orchid\Platform\Models\User as Authenticatable;
+use App\Models\Post;
+
 
 class User extends Authenticatable
 {
@@ -11,6 +13,7 @@ class User extends Authenticatable
      *
      * @var array
      */
+    
     protected $fillable = [
         'name',
         'email',
@@ -63,4 +66,9 @@ class User extends Authenticatable
         'updated_at',
         'created_at',
     ];
+    public function posts()
+{
+    return $this->hasMany(Post::class, 'author');
+}
+
 }

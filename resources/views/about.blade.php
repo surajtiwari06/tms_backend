@@ -645,64 +645,115 @@
             <!-- Jobs Category end-->
             
             <!-- Newsletter Subscriber SECTION START -->
-            <div class="section-full p-t60 site-bg-white twm-new-sub-section-wrap site-bg-cover"
-                style="background-image: url{{ asset('images/dotted-map.png')}};">
-
+              <div class="section-full twm-hpage-6-subs-wrap bg-cover "  style="background-image: url('{{ asset('images/home-6/subscribe-bg.jpg') }}');;">
                 <div class="container">
 
                     <div class="section-content">
                         <div class="row">
-                            <div class="col-lg-3 col-md-12">
-                                <div class="twm-nl-map-media-wrap hide-in-mobile">
-                                    <div class="twm-nl-map-pointer">
-                                        <div class="twm-nl-map-pic nw-pic1 bounce">
-                                            <img src="{{ asset('images/nl-pic/pic1.jpg')}}" alt="#">
+
+                            <div class="col-lg-7 col-md-12">
+                                <div class="twm-hpage-6-getintouch">
+                                    <div class="callus-bg-box">
+                                        <div class="callus-bg-box-shadow"></div>
+                                    </div>
+                                    <div class="twm-hpage-6-getintouch-title">
+                                        <h2 class="wt-title">
+                                            Elevate your business with<span> expert consultation </span>
+                                        </h2>
+                                        <div class="wt-title-small"> </div>
+                                     
+                                    </div>
+                                    <div class="twm-hpage-6-callus">
+                                        <div class="callus-icon">
+                                            <i class="flaticon-phone"></i>
                                         </div>
-                                        <div class="twm-nl-map-pic nw-pic2 bounce2">
-                                            <img src="{{ asset('images/nl-pic/pic2.jpg')}}" alt="#">
-                                        </div>
-                                        <div class="twm-nl-map-pic nw-pic3 bounce">
-                                            <img src="{{ asset('images/nl-pic/pic3.jpg')}}" alt="#">
-                                        </div>
-                                        <div class="twm-nl-map-pic nw-pic4 bounce2">
-                                            <img src="{{ asset('images/nl-pic/pic4.jpg')}}" alt="#">
+                                        <div class="callus-content">
+                                            <div class="callus-number"><a href="tel:201-254-7297" class="site-text-white"><p>201-254-7297</p></a></div> 
+                                            <div class="callus-email"><a class="site-text-white" href="mailto:info@linktms.com"><p>info@linktms.com</p></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="twm-sub-2-section site-bg-cover"
-                                    style="background-image: url{{ asset('images/nwl-bg.png')}};">
-                                    <h3 class="twm-sub-title"></h3>
-                                    <div class="twm-sub-discription">Get the latest technologies to manage and enhance
-                                        your work with us. Unlock exclusive updates, insider insights, and exciting opportunities.</div>
-                                    <form>
-                                        <div class="form-group">
-                                            <input name="news-letter" class="form-control"
-                                                placeholder="Enter Your Email Address" type="text">
+
+                            <div class="col-lg-5 col-md-12">
+                               <div class="twm-hpage-6-subscribe-wrap">
+                                   <div class="hpage-6-nw-form-corner-wrap">
+                                        <div class="twm-hpage-6-subscribe">
+                                            <h3 class="twm-sub-title">Connect with us today</h3>
+                                            {{-- <div class="twm-sub-discription">
+                                                With the latest industry insights and growth strategies. Act now to propel your business forward.
+                                            </div> --}}
+                                            <form class="cons-contact-form" method="POST" action="{{ route('contact.store') }}">
+                                                @csrf
+                                                <div class="row">
+    
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group mb-3">
+                                                            <input type="text" name="name" class="form-control" value="{{ old('name') }}" placeholder="Name">
+                                                            @error('name')
+                                                                <div class="alert alert-danger">{{ $message }}</div>
+                                                            @enderror
+                                                         </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group mb-3">
+                                                            <input type="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="Email">
+                                                            @error('email')
+                                                                <div class="alert alert-danger">{{ $message }}</div>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group mb-3">
+                                                            <input type="number" name="phone" class="form-control" value="{{ old('phone') }}" placeholder="Phone">
+                                                            @error('phone')
+                                                                <div class="alert alert-danger">{{ $message }}</div>
+                                                            @enderror
+                                                            <style>
+                                                                input::-webkit-outer-spin-button,
+                                                                input::-webkit-inner-spin-button {
+                                                                  display: none;
+                                                                }
+                                                                input[type=number] { -moz-appearance: textfield;}
+                                                              </style>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-6 col-md-6">
+                                                        <div class="form-group mb-3">
+                                                            <input type="text" name="subject" class="form-control" value="{{ old('subject') }}" placeholder="Subject">
+                                                            @error('subject')
+                                                                <div class="alert alert-danger">{{ $message }}</div>
+                                                            @enderror
+                                                </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group mb-3">
+                                                            <textarea name="message" class="form-control" placeholder="Message">{{ old('message') }}</textarea>
+                                                    @error('message')
+                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                    @enderror
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-12">
+                                                        <button type="submit" class="site-button">Submit Now</button>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </form>
                                         </div>
-                                        <button class="site-button twm-sub-btn white">Submit Here</button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-12">
-                                <div class="twm-nl-map-media-wrap hide-in-mobile">
-                                    <div class="twm-nl-map-pointer">
-                                        <div class="twm-nl-map-pic nw-pic5 bounce">
-                                            <img src="{{ asset('images/nl-pic/pic5.jpg')}}" alt="#">
-                                        </div>
-                                        <div class="twm-nl-map-pic nw-pic6 bounce2">
-                                            <img src="{{ asset('images/nl-pic/pic6.jpg')}}" alt="#">
-                                        </div>
-                                        <div class="twm-nl-map-pic nw-pic7 bounce">
-                                            <img src="{{ asset('images/nl-pic/pic7.jpg')}}" alt="#">
-                                        </div>
+                                        <div class="hpage-6-nw-form-corner"></div>
                                     </div>
-                                </div>
+                               </div>
                             </div>
+
                         </div>
                     </div>
-
+                   
                 </div>
             </div>
             <!-- Newsletter Subscriber TABLE SECTION END -->

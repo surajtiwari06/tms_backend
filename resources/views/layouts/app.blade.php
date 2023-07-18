@@ -141,7 +141,7 @@
                         </li>
                         {{-- <li><a href="{{ route('resume_parser') }}">Resume Parser</a></li> --}}
                           <li><a href="{{ route('career') }}">Career</a></li>
-                                                        
+                          <li><a href="{{ route('blog') }}">Blog</a></li>                             
                        
                     </ul>
 
