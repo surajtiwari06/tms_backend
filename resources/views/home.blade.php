@@ -578,7 +578,7 @@
 <!-- HOW IT WORK SECTION END1 -->
 
   <!-- Jobs Category START -->
-  <div class="section-full p-t90 p-b90 site-bg-white job-categories-home-5-wrap twm-bdr-bottom-1">
+  <div class="section-full p-t90 p-b90 site-bg-light job-categories-home-5-wrap twm-bdr-bottom-1">
     <div class="container">
 
         <!-- TITLE START-->
@@ -719,7 +719,7 @@
 
 
             <!-- TESTIMONIAL SECTION START -->
-            <div class="section-full p-t120 p-b90 site-bg-white twm-testimonial-v-area">
+            <div class="section-full p-t120 p-b90 site-bg-light  twm-testimonial-v-area">
                 
                 <div class="container">
 
