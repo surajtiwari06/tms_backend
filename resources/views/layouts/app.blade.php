@@ -236,7 +236,7 @@
                                 </div>
 
 
-                                <div class="col-lg-3 col-md-6 col-sm-6">  
+                                <div class="col-lg-2 col-md-6 col-sm-6">  
                                     <div class="widget widget_services ftr-list-center">
                                         <h3 class="widget-title">Quick Links</h3>
                                         <ul>
@@ -251,7 +251,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">  
+                                <div class="col-lg-4 col-md-6 col-sm-6">  
                                     <div class="widget widget_services ftr-list-center">
                                         <h3 class="widget-title">Our Address</h3>
                                         <ul class="ftr-list">
@@ -262,7 +262,7 @@
 
                                             </p></li>
                                             <!-- <li><p><span>Email :</span> info@linktms.com</p></li>
-                                            <li><p><span>Call :</span>201-254-7297</p></li> -->
+                                            <li><p><span>Call :</span> +1  +1 201 254 7297</p></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -273,7 +273,7 @@
                                             <!-- <li><p><span>Corporate Headquarters:</span><br>TMS LLC
                                                 8 Campus Drive, Parsippany-Troy Hills,<br> New Jersey, United States<br> 07054</p></li> -->
                                             <li><span><b> Email :</b></span><a href="mailto:info@linktms.com"><p>info@linktms.com</p></a></li>
-                                            <li><p><span><b>Call :</b></span><a href="tel:201-254-7297">201-254-7297</a></p></li>
+                                            <li><p><span><b>Call :</b></span><a href="tel: +1 201 254 7297"> +1 201 254 7297</a></p></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -292,10 +292,10 @@
                             <span class="copyrights-text">Copyright . All Rights Reserved.</span>
                         </div>
                         <ul class="social-icons">
-                            <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
-                            <li><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
-                            <li><a href="javascript:void(0);" class="fab fa-instagram"></a></li>
-                            <li><a href="javascript:void(0);" class="fab fa-youtube"></a></li>
+                            <li><a href="" class="fab fa-facebook-f"></a></li>
+                            <li><a href="" class="fab fa-twitter"></a></li>
+                            <li><a href="" class="fab fa-instagram"></a></li>
+                            <li><a href="" class="fab fa-youtube"></a></li>
                         </ul>
                     </div>
                     
@@ -567,7 +567,7 @@
  	</div>
 
 
-
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <!-- JAVASCRIPT  FILES ========================================= --> 
 <script  src="{{ asset('js/jquery-3.6.0.min.js') }}"></script><!-- JQUERY.MIN JS -->
 <script  src="{{ asset('js/popper.min.js') }}"></script><!-- POPPER.MIN JS -->

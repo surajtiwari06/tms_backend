@@ -115,10 +115,10 @@ class PostEditScreen extends Screen
                 Quill::make('post.body')
                     ->title('Main text'),
 
-                    Upload::make('post.attachment')
-                        ->title('Attachment')
-                        ->maxFiles(1)
-                        ->acceptedFiles('image/*'),
+                    // Upload::make('post.attachment')
+                    //     ->title('Attachment')
+                    //     ->maxFiles(1)
+                    //     ->acceptedFiles('image/*'),
       
 
             ])

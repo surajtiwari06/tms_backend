@@ -11,6 +11,7 @@ use Orchid\Screen\Actions\DropDown;
 use Orchid\Screen\Actions\Button;
 use Orchid\Support\Facades\Layout;
 use Orchid\Screen\Sight;
+use Orchid\Screen\Fields\Input;
 use Orchid\Support\Facades\Alert;
 
 class ContactListLayout extends Table
@@ -33,14 +34,22 @@ class ContactListLayout extends Table
                 ->render(function (Contact $contact) {
                     return Link::make($contact->name)
                     ->route('platform.contact.edit', $contact->id);
-                }),
+                })
+                ->sort()
+                ->filter(Input::make()),
                 
-
+                // TD::make('subject', 'Subject'),
             //  TD::make('demo', 'Last Name'),
             TD::make('email', 'Email'),
-            TD::make('phone', 'Phone'),
-            TD::make('created_at', 'Created'),
-            TD::make('updated_at', 'Last edit'),
+            TD::make('phone', 'Phone')
+            ->filter(Input::make()),
+            TD::make('created_at', __('Created'))
+            ->sort()
+            ->render(fn (Contact $Contact) => $Contact->created_at->toDateTimeString()),
+            TD::make('updated_at', __('updated_at'))
+            ->sort()
+            ->render(fn (Contact $Contact) => $Contact->created_at->toDateTimeString()),
+            // TD::make('updated_at', 'Last edit'),
 
             TD::make(__('Actions'))
             ->align(TD::ALIGN_CENTER)

@@ -36,7 +36,7 @@ class ContactListScreen extends Screen
       */
       public function description(): ?string
       {
-          return "All Form Enquirys";
+          return "All Form Enquiries";
       }
 
     //   public function permission(): ?iterable
