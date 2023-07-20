@@ -6,8 +6,10 @@ namespace App\Orchid\Screens;
 
 use Orchid\Screen\Actions\Link;
 use Orchid\Screen\Screen;
+use App\Models\Contact;
 use Orchid\Support\Facades\Layout;
 
+use App\Orchid\Layouts\ContactListLayout;
 class PlatformScreen extends Screen
 {
     /**
@@ -17,7 +19,9 @@ class PlatformScreen extends Screen
      */
     public function query(): iterable
     {
-        return [];
+        return [
+            'contact' => Contact::paginate()
+        ];
     }
 
     /**
@@ -27,7 +31,7 @@ class PlatformScreen extends Screen
      */
     public function name(): ?string
     {
-        return 'Get Started';
+        return 'TMS Dashboard';
     }
 
     /**
@@ -37,7 +41,7 @@ class PlatformScreen extends Screen
      */
     public function description(): ?string
     {
-        return 'Welcome to your Orchid application.';
+        return 'TMS, LLC. (Technology Management Solutions)';
     }
 
     /**
@@ -49,16 +53,16 @@ class PlatformScreen extends Screen
     {
         return [
             Link::make('Website')
-                ->href('http://orchid.software')
-                ->icon('globe-alt'),
+                ->href('/')
+                ->icon('globe'),
 
-            Link::make('Documentation')
-                ->href('https://orchid.software/en/docs')
-                ->icon('docs'),
+            // Link::make('Documentation')
+            //     ->href('https://orchid.software/en/docs')
+            //     ->icon('docs'),
 
-            Link::make('GitHub')
-                ->href('https://github.com/orchidsoftware/platform')
-                ->icon('social-github'),
+            // Link::make('GitHub')
+            //     ->href('https://github.com/orchidsoftware/platform')
+            //     ->icon('social-github'),
         ];
     }
 
@@ -70,8 +74,9 @@ class PlatformScreen extends Screen
     public function layout(): iterable
     {
         return [
-            Layout::view('platform::partials.update-assets'),
-            Layout::view('platform::partials.welcome'),
+            // Layout::view('platform::partials.update-assets'),
+            // Layout::view('platform::partials.welcome'),
+            ContactListLayout::class
         ];
     }
 }

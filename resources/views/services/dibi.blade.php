@@ -453,68 +453,124 @@
                                 {{-- <div class="twm-sub-discription">
                                     With the latest industry insights and growth strategies. Act now to propel your business forward.
                                 </div> --}}
-                                <form class="cons-contact-form" method="POST" action="{{ route('contact.store') }}">
-                                    @csrf
-                                    <div class="row">
-
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="form-group mb-3">
-                                                <input type="text" name="name" class="form-control" value="{{ old('name') }}" placeholder="Name">
-                                                @error('name')
-                                                    <div class="alert alert-danger">{{ $message }}</div>
-                                                @enderror
-                                             </div>
-                                        </div>
-                                        
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="form-group mb-3">
-                                                <input type="email" name="email" class="form-control" value="{{ old('email') }}" placeholder="Email">
-                                                @error('email')
-                                                    <div class="alert alert-danger">{{ $message }}</div>
-                                                @enderror
+                                  <form class="cons-contact-form" method="POST" action="{{ route('contact.store') }}">
+                                            @csrf
+                                            <div class="row">
+    
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <input type="text" name="name" class="form-control"
+                                                            value="{{ old('name') }}" placeholder="Name">
+                                                        @error('name')
+                                                            <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <input type="email" name="email" class="form-control"
+                                                            value="{{ old('email') }}" placeholder="Email">
+                                                        @error('email')
+                                                            <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <input type="tel" name="phone" class="form-control"
+                                                            value="{{ old('phone') }}" placeholder="Phone">
+                                                        @error('phone')
+                                                            <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
+                                                        <style>
+                                                            input::-webkit-outer-spin-button,
+                                                            input::-webkit-inner-spin-button {
+                                                                display: none;
+                                                            }
+    
+                                                            input[type=number] {
+                                                                -moz-appearance: textfield;
+                                                            }
+                                                        </style>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-lg-6 col-md-6">
+                                                    <div class="form-group mb-3">
+                                                        <input type="text" name="subject" class="form-control"
+                                                            value="{{ old('subject') }}" placeholder="Subject">
+                                                        @error('subject')
+                                                            <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-lg-12">
+                                                    <div class="form-group mb-3">
+                                                        <textarea name="message" class="form-control" placeholder="Message">{{ old('message') }}</textarea>
+                                                        @error('message')
+                                                            <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-md-12">
+                                                    <button type="button" class="site-button" onclick="submitForm()">Submit
+                                                        Now</button>
+                                                </div>
+    
+    
                                             </div>
-                                        </div>
-                                        
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="form-group mb-3">
-                                                <input type="number" name="phone" class="form-control" value="{{ old('phone') }}" placeholder="Phone">
-                                                @error('phone')
-                                                    <div class="alert alert-danger">{{ $message }}</div>
-                                                @enderror
-                                                <style>
-                                                    input::-webkit-outer-spin-button,
-                                                    input::-webkit-inner-spin-button {
-                                                      display: none;
-                                                    }
-                                                    input[type=number] { -moz-appearance: textfield;}
-                                                  </style>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="form-group mb-3">
-                                                <input type="text" name="subject" class="form-control" value="{{ old('subject') }}" placeholder="Subject">
-                                                @error('subject')
-                                                    <div class="alert alert-danger">{{ $message }}</div>
-                                                @enderror
-                                    </div>
-                                        </div>
-                                        
-                                        <div class="col-lg-12">
-                                            <div class="form-group mb-3">
-                                                <textarea name="message" class="form-control" placeholder="Message">{{ old('message') }}</textarea>
-                                        @error('message')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="col-md-12">
-                                            <button type="submit" class="site-button">Submit Now</button>
-                                        </div>
-                                        
-                                    </div>
-                                </form>
+                                        </form>
+                                        <script>
+                                            function submitForm() {
+                                                // Disable the submit button to prevent multiple clicks
+                                                const submitButton = document.querySelector('.site-button');
+                                                submitButton.disabled = true;
+    
+                                                // Get the form data
+                                                const formData = new FormData(document.querySelector('.cons-contact-form'));
+    
+                                                // Make an AJAX request using Axios
+                                                axios.post('{{ route('contact.store') }}', formData)
+                                                    .then(response => {
+                                                        // Handle the success response
+                                                        if (response.data.success) {
+                                                            // Display success message (assuming you return a 'success' flag from your Laravel controller)
+                                                            showAlert('alert-success', response.data.success);
+                                                            // Reset the form after a successful submission
+                                                            document.querySelector('.cons-contact-form').reset();
+                                                        } else {
+                                                            // Display error message (assuming you return an 'error' flag from your Laravel controller)
+                                                            showAlert('alert-danger', response.data.error);
+                                                        }
+                                                    })
+                                                    .catch(error => {
+                                                        // Handle the error response
+                                                        showAlert('alert-danger', 'An error occurred while submitting the form.');
+                                                    })
+                                                    .finally(() => {
+                                                        // Re-enable the submit button after the AJAX request is completed
+                                                        submitButton.disabled = false;
+                                                    });
+                                            }
+    
+                                            function showAlert(className, message) {
+                                                const alertDiv = document.createElement('div');
+                                                alertDiv.className = `alert ${className}`;
+                                                alertDiv.textContent = message;
+    
+                                                const form = document.querySelector('.cons-contact-form');
+                                                form.parentNode.insertBefore(alertDiv, form);
+    
+                                                // Automatically remove the alert after 5 seconds
+                                                setTimeout(() => {
+                                                    alertDiv.remove();
+                                                }, 5000);
+                                            }
+                                        </script>
                             </div>
                             <div class="hpage-6-nw-form-corner"></div>
                         </div>

@@ -158,7 +158,7 @@
 
                         </div>
                     </div>
-                    <div class="twm-about-1-bottom-wrap">
+                    {{-- <div class="twm-about-1-bottom-wrap">
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
                                 <!--icon-block-1-->
@@ -214,7 +214,7 @@
                             
 
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
            

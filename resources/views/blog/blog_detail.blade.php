@@ -194,6 +194,7 @@
                                                 
                                             
                                             <div class="widget-post clearfix">
+                                                <a href="{{ route('posts.show', ['post' => $recentpost]) }}">
                                                 <div class="wt-post-media">
                                                     <img src="{{ $recentpost->hero }}" alt="">
                                                 </div>
@@ -201,10 +202,11 @@
                                                     <div class="wt-post-header">
                                                         <span class="post-date">{{ $recentpost->created_at->format('F d, Y') }}</span>
                                                         <span class="post-title"> 
-                                                            <a href="blog-single.html">{{ $recentpost->title }}</a>
+                                                            <a href="{{ route('posts.show', ['post' => $recentpost]) }}">{{ $recentpost->title }}</a>
                                                         </span>
                                                     </div>                                                    
                                                 </div>
+                                            </a>
                                             </div>
                                             @endforeach
                                        

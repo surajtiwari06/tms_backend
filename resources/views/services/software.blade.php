@@ -101,7 +101,7 @@
                            
                         </div>
                         <h2 class="wt-title"><span class="site-text-primary" style="text-align: center;">Software Development Services</span></h2>
-                                    <div style="font-size: 17px;">   <p class="lead">
+                                    <div style="font-size: 17px;">   <p class="lead text-black">
                                         At <span class="site-text-orange h5">TMS</span>, we specialize in delivering high-quality software solutions tailored to meet the unique needs of businesses across various industries. Our team of experienced developers and designers combine their expertise with the latest technologies to create robust, scalable, and user-friendly software applications. With a focus on innovation and efficiency, we strive to empower businesses with cutting-edge software solutions that drive growth and streamline operations.
                                     </p>
                                   

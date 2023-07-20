@@ -51,7 +51,7 @@ class ContactEditScreen extends Screen
      */
     public function description(): ?string
     {
-        return "start Entering Contact";
+        return "Start Entering Contact";
     }
     // public function permission(): ?iterable
     // {
@@ -95,7 +95,7 @@ class ContactEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('contact.name')
-                    ->title('Last Name')
+                    ->title(' Name')
                     ->type('text')
                     ->required()
                     ->placeholder('Enter First Name '),
@@ -118,7 +118,12 @@ class ContactEditScreen extends Screen
                     ->required()
                     ->placeholder('Enter Email '),
 
-                  
+                    TextArea::make('contact.subject')
+                    ->title('Subject')
+                    ->required()
+                    ->rows(1)
+                    ->maxlength(6)
+                    ->placeholder('Brief title for Enquiry'),
             
                     TextArea::make('contact.message')
                     ->title('Message')

@@ -34,35 +34,32 @@ class ContactController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-{
-    $validatedData = $request->validate([
-        'name' => 'required|string|max:255',
-        'email' => 'required|email|max:255',
-        'phone' => 'required|string|max:20',
-        'subject' => 'nullable|string|max:255',
-        'message' => 'required|string',
-    ]);
+    {
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'subject' => 'nullable|string|max:255',
+            'message' => 'required|string',
+        ]);
 
-    try {
-        // save data to database
-        $contact = new Contact();
-        $contact->name = $validatedData['name'];
-        $contact->email = $validatedData['email'];
-        $contact->phone = $validatedData['phone'];
-        $contact->subject = $validatedData['subject'];
-        $contact->message = $validatedData['message'];
-        $contact->save();
+        try {
+            // save data to the database
+            $contact = new Contact();
+            $contact->name = $validatedData['name'];
+            $contact->email = $validatedData['email'];
+            $contact->phone = $validatedData['phone'];
+            $contact->subject = $validatedData['subject'];
+            $contact->message = $validatedData['message'];
+            $contact->save();
 
-        // redirect to success page with success message
-        return back()->with('success', 'Thank you for contacting us!');
-    } catch (\Exception $e) {
-        // redirect back with error message
-        return back()->with('error', 'Error: ' . $e->getMessage());
+            // Return success response as JSON
+            return response()->json(['success' => 'Form submitted successfully!']);
+        } catch (\Exception $e) {
+            // Return error response as JSON
+            return response()->json(['error' => 'Form submission failed. Please try again.']);
+        }
     }
-}
-
-    
-
     /**
      * Display the specified resource.
      *

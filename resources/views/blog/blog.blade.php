@@ -84,7 +84,7 @@
                             </li>
                             @for ($page = 1; $page <= $posts->lastPage(); $page++)
                                 @if ($page == $posts->currentPage())
-                                    <li class="active"><a href="javascript:;">{{ $page }}</a></li>
+                                    <li class="active"><a href=" ">{{ $page }}</a></li>
                                 @else
                                     <li><a href="{{ $posts->url($page) }}">{{ $page }}</a></li>
                                 @endif

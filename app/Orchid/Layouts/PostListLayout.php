@@ -25,16 +25,18 @@ class PostListLayout extends Table
         return [
             TD::make('title')
    ->sort()
-   ->filter(Input::make())
+   ->filter(Input::make()) ->sort()
    ->render(function (Post $post) {
        return Link::make($post->title)->route('platform.post.edit', $post);
    }),
 
-            TD::make('created_at', 'Created')
-                ->sort(),
-
-            TD::make('updated_at', 'Last edit')
-                ->sort(),
+   TD::make('created_at', __('Created'))
+   ->sort()
+   ->render(fn (post $post) => $post->created_at->toDateTimeString()),
+   TD::make('updated_at', __('updated_at'))
+   ->sort()
+   ->render(fn (post $post) => $post->created_at->toDateTimeString()),
+               
              
                 TD::make(__('Actions'))
                 ->align(TD::ALIGN_CENTER)
