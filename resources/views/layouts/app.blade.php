@@ -11,8 +11,8 @@
     <meta name="description" content="" />
     
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/logo_tms.png" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo_tms.png" />
+    <link rel="icon" href="images/Link_TMS-01.png" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/Link_TMS-01.png" />
     
     <!-- PAGE TITLE HERE -->
     <title>TMS | index</title>
@@ -78,7 +78,7 @@
   <!-- HEADER START -->
   <header  class="site-header header-style-3 mobile-sider-drawer-menu">
 
-    <div class="sticky-header main-bar-wraper  navbar-expand-lg">
+    <div class="sticky-header main-bar-wraper">
         <div class="main-bar">  
                             
             <div class="container-fluid clearfix"> 
@@ -86,14 +86,14 @@
                 <div class="logo-header">
                     <div class="logo-header-inner logo-header-one">
                         <a href="/">
-                            <img src="{{ asset('images/logo_tms.png') }}" alt="">
+                            <img src="{{ asset('images/Link_TMS-01.png') }}" alt="">
 
                         </a>
                     </div>
                 </div>  
                 
                 <!-- NAV Toggle Button -->
-                <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
+                <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed hide-in-desktop" >
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar icon-bar-first"></span>
                     <span class="icon-bar icon-bar-two"></span>
@@ -151,18 +151,10 @@
                 
                 <!-- Header Right Section-->
                 <div class="extra-nav header-2-nav">
-                    <!-- <div class="extra-cell">
-                        <div class="header-search">
-                            <a href="#search" class="header-search-icon"><i class="feather-search"></i></a>
-                        </div>                                
-                    </div> -->
+                
                     <div class="extra-cell">
                         <div class="header-nav-btn-section">
-                            <!-- <div class="twm-nav-btn-left">
-                                <a class="twm-nav-sign-up" data-bs-toggle="modal" href="#sign_up_popup" role="button">
-                                    <i class="feather-log-in"></i> Sign Up
-                                </a>
-                            </div> -->
+                            
                             <div class="twm-nav-btn-right">
                                 <a href="{{ route('contact.index') }}" class="twm-nav-post-a-job mb-3"><i class="flaticon-telephone"></i>Contact Us</a>
                               
@@ -205,7 +197,7 @@
                             
                             <div class="widget widget_about">
                                 <div class="logo-footer clearfix">
-                                     <a href="/"><img src="{{ asset('images/logo_tms.png') }}" alt="" class="center"  style="justify-content:center;"></a>
+                                     <a href="/"><img src="{{ asset('images/Link_TMS-01.png') }}" alt="" class="center"  style="justify-content:center;"></a>
                                 </div>
                                 <h3>Technology Management Solutions</h3>
                                

@@ -504,10 +504,10 @@
                     <div class="twm-companies-wrap-bg-block2"></div>
                     <!-- TITLE START-->
                     <div class="section-head center wt-small-separator-outer content-white">
-                        <div class="wt-small-separator site-text-primary">
-                            <div>Top Companies</div>
+                        <div class="wt-small-separator ">
+                            <div class="site-text-primary">Top Companies</div>
                         </div>
-                        <h2 class="wt-title">Trusted by top-tier companies world-wide</h2>
+                        <h2 class="wt-title site-text-secondry">Trusted by top-tier companies world-wide</h2>
                     </div>
                     <!-- TITLE END-->
 
