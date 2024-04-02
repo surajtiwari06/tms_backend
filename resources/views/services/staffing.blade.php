@@ -232,9 +232,9 @@
                     <!-- TITLE START-->
                     <div class="section-head center wt-small-separator-outer">
                         <div class="wt-small-separator">
-                           <div class="site-text-orange">How We Work</div>                                
+                           <div class="site-text-primary">How We Work</div>                                
                         </div>
-                        <h2 class="wt-title site-text-primary">Our Slient Features</h2>
+                        <h2 class="wt-title site-text-secondry">Our Slient Features</h2>
                         
                     </div>                  
                     <!-- TITLE END-->
@@ -386,7 +386,7 @@
         <div class="wt-small-separator site-text-orange">
            <div class="site-text-orange">Top Companies</div>                                
         </div>
-        <h2 class="wt-title site-text-primary">Trusted by top-tier companies world-wide</h2>
+        <h2 class="wt-title site-text-secondry">Trusted by top-tier companies world-wide</h2>
     </div>                  
     <!-- TITLE END-->
 
