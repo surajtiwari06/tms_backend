@@ -79,7 +79,7 @@
   <header  class="site-header header-style-3 mobile-sider-drawer-menu">
 
     <div class="sticky-header main-bar-wraper">
-        <div class="main-bar">  
+        <div class="main-bar" style="padding-bottom: 10px;">  
                             
             <div class="container-fluid clearfix"> 
         
