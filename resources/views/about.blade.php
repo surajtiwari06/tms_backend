@@ -11,7 +11,7 @@
                                 <div class="twm-media">
 
                                    
-                                    <div class=""><img src="{{ asset('images/boy-large.png')}}"alt=""></div>
+                                    <div class=""><img src="{{ asset('images/gir-large.png')}}"alt=""></div>
                                     <div class="twm-media-bg-circle2"></div>
                                     <div class="twm-media-bg-circle3">
                                         <div class="rotate-center">
