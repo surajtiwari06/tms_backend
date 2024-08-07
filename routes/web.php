@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\CourseFormController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -74,3 +76,9 @@ Route::resource('contact', ContactController::class);
 // Route for listing all posts
 Route::get('/blog', [PostController::class, 'index'])->name('blog');
 Route::get('/posts/{post}', [PostController::class, 'show'])->name('posts.show');
+
+Route::get('/courseform', function () {
+    return view('courseform');
+})->name('courseform');
+
+Route::post('/courseform/store', [CourseFormController::class, 'store'])->name('courseform.store');
