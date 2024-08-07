@@ -8019,6 +8019,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .twm-blog-post-2-outer .wt-post-media {
   border-radius: 10px;
   overflow: hidden;
+  height: 650px;
 }
 .twm-blog-post-2-outer .wt-post-media img {
   width: 100%;
