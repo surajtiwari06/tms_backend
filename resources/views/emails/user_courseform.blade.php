@@ -12,7 +12,7 @@
         .container {
             background-color: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
             padding: 30px;
             max-width: 600px;
@@ -21,7 +21,7 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        .header h1 {
+        .header h3 {
             font-size: 28px;
             color: #27607a;
             margin-bottom: 10px;
@@ -44,12 +44,12 @@
 <body>
     <div class="container">
         <div class="header">
-            <h3>Thank You for Registering for the Generative AI Course!</h3>
+            <h3>Thank You for Your Registration</h3>
         </div>
         <div class="content">
             <p>Hi {{ $data['name'] }},</p>
-            <p>Thank you for registering Genrative AI Course with us! We have received your submission and will get back to you shortly.</p>
-            <p>If you have any questions, feel free to contct us.</p>
+            <p>Thank you for registering for the Generative AI Course with us! We have received your submission and will get back to you shortly.</p>
+            <p>If you have any questions, please feel free to contact us.</p>
         </div>
         <div class="footer">
             <p>&copy; {{ date('Y') }} TMS. All Rights Reserved.</p>

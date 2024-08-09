@@ -22,6 +22,8 @@ use App\Orchid\Screens\ContactListScreen;
 use App\Orchid\Screens\ContactEditScreen;
 use App\Orchid\Screens\PostEditScreen;
 use App\Orchid\Screens\PostListScreen;
+use App\Orchid\Screens\CourseListScreen;
+use App\Orchid\Screens\CourseEditScreen;
 /*
 |--------------------------------------------------------------------------
 | Dashboard Routes
@@ -116,3 +118,9 @@ Route::screen('contacts', ContactListScreen::class)
 
 Route::screen('posts', PostListScreen::class)
     ->name('platform.post.list');
+
+Route::screen('course', CourseListScreen::class)
+    ->name('platform.course.list');
+
+Route::screen('course/{course?}', CourseEditScreen::class)
+    ->name('platform.course.edit');
