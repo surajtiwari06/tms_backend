@@ -16,7 +16,7 @@
             <div class="overlay-main site-bg-primary opacity-01"></div>
             <div class="container">
 
-                <h3 class="site-text-primary display-6 text-center mb-5 mt-3">Generative AI Course Registration Form</h3>
+                <h3 class="text-dark display-6 text-center mb-5 mt-3">Generative AI Course Registration Form</h3>
 
 
                 <div class="section-content">
