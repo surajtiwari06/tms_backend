@@ -113,7 +113,7 @@
                                                             <select name="study" id="study" class="form-control"
                                                                 required>
                                                                 <option class="text-inherit" value="" disabled
-                                                                    selected>Select your level of study</option>
+                                                                    selected>Education</option>
                                                                 <option value="graduation"
                                                                     {{ old('study') == 'graduation' ? 'selected' : '' }}>
                                                                     Graduation</option>
