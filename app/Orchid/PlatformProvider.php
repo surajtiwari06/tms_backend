@@ -27,7 +27,12 @@ class PlatformProvider extends OrchidServiceProvider
      */
     public function registerMainMenu(): array
     {
-        return [
+        return [           
+            Menu::make('Course Registration')
+                ->icon('browser')
+                ->route('platform.course.list')
+                ->title('Course'), 
+
             Menu::make('Enquiry ')
                 ->icon('call-in')
                 ->route('platform.contact.list')

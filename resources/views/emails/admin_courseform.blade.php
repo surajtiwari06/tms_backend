@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Genrative AI Course Registration</title>
+    <title>Generative AI Course Registration</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -12,7 +12,7 @@
         .container {
             background-color: #ffffff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
             padding: 30px;
             max-width: 700px;
@@ -57,10 +57,10 @@
 <body>
     <div class="container">
         <div class="header">        
-            <h2>Genrative AI Course Registration</h2>
+            <h2>Generative AI Course Registration</h2>
         </div>
         <div class="content">
-            <p>A Genrative AI Course Registration has been submitted:</p>
+            <p>A registration for the Generative AI Course has been submitted:</p>
             <table class="details table table-bordered">
                 <tr><th>Name</th><td>{{ $data['name'] }}</td></tr>
                 <tr><th>Gender</th><td>{{ $data['gender'] }}</td></tr>

@@ -18,6 +18,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('email');
             $table->string('phone');
             $table->string('company')->nullable();
+            $table->string('study');
             $table->text('message')->nullable();
             $table->timestamps();
         });
@@ -28,3 +29,4 @@ class CreateRegistrationsTable extends Migration
         Schema::dropIfExists('registrations');
     }
 }
+
