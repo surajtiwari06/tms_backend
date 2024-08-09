@@ -30,12 +30,11 @@ class CourseFormController extends Controller
             Registration::create($validatedData);
 
             // Send email to user
-            Mail::to($request->email)->send(new CourseFormMail($validatedData));
+            // Mail::to($request->email)->queue(new CourseFormMail($validatedData));
 
-            // Send email to admin
-            $adminEmail = config('app.admin_email');       
-            Mail::to($adminEmail)->send(new CourseFormAdminMail($validatedData));
-
+            // // Send email to admin
+            // $adminEmail = config('app.admin_email');       
+            // Mail::to($adminEmail)->queue(new CourseFormAdminMail($validatedData));
 
             return redirect()->back()->with('success', 'Form submitted successfully!');
         } catch (\Illuminate\Validation\ValidationException $e) {
