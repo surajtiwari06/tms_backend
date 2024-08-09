@@ -2642,8 +2642,14 @@ ol li {
   right: 0%;
   opacity: 0.1;
 }
+@media (min-width: 1360px) {
 .header-style-3 .header-nav-btn-section .twm-nav-btn-right {
   margin-right: 150px;
+  margin-top:10px;
+}
+}
+.header-style-3 .header-nav-btn-section .twm-nav-btn-right {
+  margin-top:30px;
 }
 .header-style-3 .header-nav-btn-section .twm-nav-btn-right .twm-nav-post-a-job {
   background-color:  #27607a;
@@ -2744,6 +2750,7 @@ ol li {
   font-size: 36px;
   color: #000;
   margin-left: 18%;
+  margin-top:10px;
   position: relative;
   z-index: 11;
 }
@@ -3172,6 +3179,7 @@ ol li {
   }
   .header-style-3.mobile-sider-drawer-menu #mobile-side-drawer {
     min-height: 41px;
+    margin-top: 30px;
     position: relative;
   }
   .header-style-3.mobile-sider-drawer-menu.active .icon-bar.icon-bar-first {

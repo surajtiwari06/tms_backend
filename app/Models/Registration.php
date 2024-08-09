@@ -18,6 +18,7 @@ class Registration extends Model
         'email', 
         'phone', 
         'company', 
+        'study', 
         'message'
     ];
 }
