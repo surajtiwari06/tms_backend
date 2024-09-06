@@ -4,23 +4,23 @@
 @section('content')
 
 <!-- INNER PAGE BANNER -->
-  <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image: url('{{ asset('limages/banner/1.jpg') }}');">
+  <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image:url('{{ asset('images/banner/1.jpg') }}');">
     <div class="overlay-main site-bg-white opacity-01"></div>
     <div class="container">
         <div class="wt-bnr-inr-entry">
-            
-            <div>
-                <ul class="wt-breadcrumb breadcrumb-style-2" style="margin-bottom: 50px;">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Services</li>
-                </ul>
-            </div>
             <div class="banner-title-outer">
                 <h2><div class="banner-title-name site-text-primary">
                     Data Warehouse & Intelligence
             </div></h2>
                 
             </div>
+            <div>
+                <ul class="wt-breadcrumb breadcrumb-style-2" style="margin-bottom: 50px;">
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            
             <!-- BREADCRUMB ROW -->
 
 
