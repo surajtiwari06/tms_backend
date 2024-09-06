@@ -62,7 +62,7 @@
             
             <div>
                 <ul class="wt-breadcrumb breadcrumb-style-2" style="margin-bottom: 50px;">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
                     <li>Services</li><li>Software Development</li>
                 </ul>
             </div>
